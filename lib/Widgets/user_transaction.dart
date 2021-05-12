@@ -42,7 +42,7 @@ class _UserTransactionState extends State<UserTransaction> {
     return Column(
       children: [
         NewTransaction(_newTransaction),
-        Transactions_List(_userTransactions),
+        transactions_List(_userTransactions),
       ],
     );
   }

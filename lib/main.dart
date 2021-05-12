@@ -1,12 +1,8 @@
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
 
 import './widgets/new_transaction.dart';
 import './Widgets/transactions_list.dart';
 import './Models/transaction.dart';
-=======
-import './Widgets/user_transaction.dart';
->>>>>>> f1570c0149ab4b9dc65678eff92059849d6b41cf
 
 void main() => runApp(MyApp());
 
@@ -40,7 +36,6 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-<<<<<<< HEAD
   // String titleInput;
   // String amountInput;
   @override
@@ -89,18 +84,10 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-=======
-  @override
-  _MyHomePageState createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
->>>>>>> f1570c0149ab4b9dc65678eff92059849d6b41cf
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-<<<<<<< HEAD
         title: Text(
           'Flutter App',
           style: TextStyle(
@@ -113,23 +100,6 @@ class _MyHomePageState extends State<MyHomePage> {
             icon: Icon(Icons.add),
             onPressed: () => _startAddNewTransaction(context),
           ),
-=======
-        title: Text('Flutter App'),
-      ),
-      body: Column(
-        //mainAxisAlignment: MainAxisAlignment.spaceAround,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          Container(
-            width: double.infinity,
-            child: Card(
-              color: Colors.blue,
-              child: Text('CHART!'),
-              elevation: 5,
-            ),
-          ),
-          UserTransaction(),
->>>>>>> f1570c0149ab4b9dc65678eff92059849d6b41cf
         ],
       ),
       body: SingleChildScrollView(
